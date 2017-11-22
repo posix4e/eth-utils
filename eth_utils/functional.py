@@ -19,7 +19,7 @@ def combine(f, g):
 def compose(*functions):
     warnings.warn(DeprecationWarning(
         "The `compose` function has been deprecated and will be removed in a "
-        "subsequent release of `ethereum-utils`.  It is recommended that you "
+        "subsequent release of `eth_utils`.  It is recommended that you "
         "switch to use a library like `cytoolz` which provides similar "
         "functionality through the `cytoolz.functoolz.compose` function."
     ))

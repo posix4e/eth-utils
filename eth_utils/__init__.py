@@ -81,4 +81,4 @@ from .types import (  # noqa: F401
 )
 
 
-__version__ = pkg_resources.get_distribution("ethereum-utils").version
+__version__ = pkg_resources.get_distribution("eth_utils").version
